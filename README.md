@@ -2,7 +2,12 @@
 An easy way to change GDM background on manjaro gnome with right click
 
 
-This simple script allow you to change the GDM background easily in Manjaro with gnome. Simply right click on a jpg/png file image, logout and login again or restart the computer.
+This is my first job like this one. It's not totally born from my brain, I'm not a developer.
+
+I use some other scripts found on the web and I customize and mix them to other things made by myself and the result is this simple script that allow you to 
+
+change the GDM background easily in Manjaro with gnome. Simply right click on a jpg/png file image, logout and login again or restart the computer.
+
 
 First of all a backup with timeshift or other similar software is recommended.
 
@@ -31,7 +36,7 @@ sudo pacman -Sy gnome-shell gdm
 
 
 
-Thanks for use my script, hope you like it!
+Thanks for use my work, hope you like it!
 
 
 
