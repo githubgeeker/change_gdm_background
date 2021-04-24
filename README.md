@@ -13,11 +13,11 @@ First of all a backup with timeshift or other similar software is recommended.
 
 Anyway, create a new directory in your home and rename it to "Scripts". 
 
-Download and extract the zip file and move the "change_gdm_background" folder in your $HOME/Scripts folder.
+Download and extract the zip file, rename the "change_gdm_background-main" folder in "change_gdm_background" and move it in your $HOME/Scripts folder.
 
 Move "Change GDM Background" file inside the $HOME/.local/share/nautilus/scripts folder.
 
-Inside the install.sh file, replace the line "your_user_password_here" with your user password (exemple: "buddy").
+Inside the install.sh file, replace the line "your_user_password_here" with your user password (exemple: "buddy") and save the file.
 
 Password is needed because we must put the file gnome-shell-theme.gresource in /usr/share/gnome-shell/
 
