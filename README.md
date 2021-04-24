@@ -25,7 +25,7 @@ Password is needed because we must put the file gnome-shell-theme.gresource in /
 
 Restart nautilus in a terminal with "nautilus -q"
 
-Now, right click on an image of your choise and choose "Change GDM Background"
+Now, right click on an image of your choise and choose "Scripts --> Change GDM Background"
 
 Logout and login and woilà!!
 
