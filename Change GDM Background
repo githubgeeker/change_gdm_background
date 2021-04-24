@@ -1,0 +1,9 @@
+#!/bin/bash
+
+while [ $# -gt 0 ]; do
+	picture=$1
+	jpg_file=`echo "$picture" | sed 's/\.\w*$/.jpg/'`
+	cp "$picture" $HOME/Scripts/change_gdm_background/shell-theme/theme/background
+        sh $HOME/Scripts/change_gdm_background/install.sh
+	shift
+done
